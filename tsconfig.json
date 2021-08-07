@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["esnext"],
+    "target": "es2021",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "declaration": false,
+
+    "outDir": "dist",
+  },
+  "include": [
+    "src/**/*",
+    "scripts/**/*",
+    "test/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

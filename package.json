@@ -1,0 +1,19 @@
+{
+  "name": "google-drive-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adityahegderocks@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "googleapis": "^84.0.0"
+  }
+}
